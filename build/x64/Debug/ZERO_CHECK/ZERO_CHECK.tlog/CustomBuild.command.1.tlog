@@ -1,0 +1,10 @@
+^D:\УЧЕБА\5 СЕМЕСТР\УГ. К. ПО C++\LAB3\BUILD\CMAKEFILES\D2FB7DD1BC96FE94C61ABB1023C5CB56\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Учеба/5 семестр/Уг. к. по C++/Lab3" "-BD:/Учеба/5 семестр/Уг. к. по C++/Lab3/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Учеба/5 семестр/Уг. к. по C++/Lab3/build/SolutionTest.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
