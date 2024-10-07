@@ -1,5 +1,4 @@
 #include "main.hpp"
-#include "main.cpp"
 #include "catch2/catch_all.hpp"
 
 //Тесты с использованием Catch2

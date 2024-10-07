@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CE0764A3-B0DE-3666-94E1-0BDCF2AB16F7}</ProjectGuid>
+    <ProjectGuid>{3502487E-C02F-36C7-B4C5-C5EE222C1ACE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Учеба\5 семестр\Уг. к. по C++\Lab3\Catch2\CMakeLists.txt">
+    <CustomBuild Include="D:\Studies\5s\C++\Lab3\Catch2\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Учеба/5 семестр/Уг. к. по C++/Lab3/Catch2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Studies/5s/C++/Lab3/Catch2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Учеба/5 семестр/Уг. к. по C++/Lab3" "-BD:/Учеба/5 семестр/Уг. к. по C++/Lab3/build" --check-stamp-file "D:/Учеба/5 семестр/Уг. к. по C++/Lab3/build/Catch2/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Studies/5s/C++/Lab3 -BD:/Studies/5s/C++/Lab3/build --check-stamp-file D:/Studies/5s/C++/Lab3/build/Catch2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\Учеба\5 семестр\Уг. к. по C++\Lab3\Catch2\CMake\CatchConfigOptions.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Учеба\5 семестр\Уг. к. по C++\Lab3\build\Catch2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\Studies\5s\C++\Lab3\Catch2\CMake\CatchConfigOptions.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Studies\5s\C++\Lab3\build\Catch2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Учеба/5 семестр/Уг. к. по C++/Lab3/Catch2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Studies/5s/C++/Lab3/Catch2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Учеба/5 семестр/Уг. к. по C++/Lab3" "-BD:/Учеба/5 семестр/Уг. к. по C++/Lab3/build" --check-stamp-file "D:/Учеба/5 семестр/Уг. к. по C++/Lab3/build/Catch2/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Studies/5s/C++/Lab3 -BD:/Studies/5s/C++/Lab3/build --check-stamp-file D:/Studies/5s/C++/Lab3/build/Catch2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\Учеба\5 семестр\Уг. к. по C++\Lab3\Catch2\CMake\CatchConfigOptions.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Учеба\5 семестр\Уг. к. по C++\Lab3\build\Catch2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\Studies\5s\C++\Lab3\Catch2\CMake\CatchConfigOptions.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Studies\5s\C++\Lab3\build\Catch2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Учеба/5 семестр/Уг. к. по C++/Lab3/Catch2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Studies/5s/C++/Lab3/Catch2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Учеба/5 семестр/Уг. к. по C++/Lab3" "-BD:/Учеба/5 семестр/Уг. к. по C++/Lab3/build" --check-stamp-file "D:/Учеба/5 семестр/Уг. к. по C++/Lab3/build/Catch2/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Studies/5s/C++/Lab3 -BD:/Studies/5s/C++/Lab3/build --check-stamp-file D:/Studies/5s/C++/Lab3/build/Catch2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\Учеба\5 семестр\Уг. к. по C++\Lab3\Catch2\CMake\CatchConfigOptions.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Учеба\5 семестр\Уг. к. по C++\Lab3\build\Catch2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\Studies\5s\C++\Lab3\Catch2\CMake\CatchConfigOptions.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Studies\5s\C++\Lab3\build\Catch2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Учеба/5 семестр/Уг. к. по C++/Lab3/Catch2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Studies/5s/C++/Lab3/Catch2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Учеба/5 семестр/Уг. к. по C++/Lab3" "-BD:/Учеба/5 семестр/Уг. к. по C++/Lab3/build" --check-stamp-file "D:/Учеба/5 семестр/Уг. к. по C++/Lab3/build/Catch2/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Studies/5s/C++/Lab3 -BD:/Studies/5s/C++/Lab3/build --check-stamp-file D:/Studies/5s/C++/Lab3/build/Catch2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,25 +159,25 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\Учеба\5 семестр\Уг. к. по C++\Lab3\Catch2\CMake\CatchConfigOptions.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Учеба\5 семестр\Уг. к. по C++\Lab3\build\Catch2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\Studies\5s\C++\Lab3\Catch2\CMake\CatchConfigOptions.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Studies\5s\C++\Lab3\build\Catch2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Учеба\5 семестр\Уг. к. по C++\Lab3\build\ZERO_CHECK.vcxproj">
-      <Project>{0231DA7A-3458-3251-8C49-66FFD427333E}</Project>
+    <ProjectReference Include="D:\Studies\5s\C++\Lab3\build\ZERO_CHECK.vcxproj">
+      <Project>{54BCBE15-9645-302C-A2C4-4A45B3AAE1C1}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\Учеба\5 семестр\Уг. к. по C++\Lab3\build\Catch2\src\Catch2.vcxproj">
+    <ProjectReference Include="D:\Studies\5s\C++\Lab3\build\Catch2\src\Catch2.vcxproj">
       <Project>{8d538cbe-01bf-4a2e-a98a-6c368fdf13d7}</Project>
       <Name>Catch2</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Учеба\5 семестр\Уг. к. по C++\Lab3\build\Catch2\src\Catch2WithMain.vcxproj">
+    <ProjectReference Include="D:\Studies\5s\C++\Lab3\build\Catch2\src\Catch2WithMain.vcxproj">
       <Project>{8bd3552a-2cfb-4a59-ab15-2031b97ada1e}</Project>
       <Name>Catch2WithMain</Name>
     </ProjectReference>

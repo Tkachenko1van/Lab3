@@ -1,6 +1,6 @@
-^D:\УЧЕБА\5 СЕМЕСТР\УГ. К. ПО C++\LAB3\CATCH2\SRC\CMAKELISTS.TXT
+^D:\STUDIES\5S\C++\LAB3\CATCH2\SRC\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Учеба/5 семестр/Уг. к. по C++/Lab3" "-BD:/Учеба/5 семестр/Уг. к. по C++/Lab3/build" --check-stamp-file "D:/Учеба/5 семестр/Уг. к. по C++/Lab3/build/Catch2/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Studies/5s/C++/Lab3 -BD:/Studies/5s/C++/Lab3/build --check-stamp-file D:/Studies/5s/C++/Lab3/build/Catch2/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

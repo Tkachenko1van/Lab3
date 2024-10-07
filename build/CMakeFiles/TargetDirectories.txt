@@ -1,6 +1,6 @@
-D:/Учеба/5 семестр/Уг. к. по C++/Lab3/build/CMakeFiles/tests.dir
-D:/Учеба/5 семестр/Уг. к. по C++/Lab3/build/CMakeFiles/ALL_BUILD.dir
-D:/Учеба/5 семестр/Уг. к. по C++/Lab3/build/CMakeFiles/ZERO_CHECK.dir
-D:/Учеба/5 семестр/Уг. к. по C++/Lab3/build/Catch2/CMakeFiles/ALL_BUILD.dir
-D:/Учеба/5 семестр/Уг. к. по C++/Lab3/build/Catch2/src/CMakeFiles/Catch2.dir
-D:/Учеба/5 семестр/Уг. к. по C++/Lab3/build/Catch2/src/CMakeFiles/Catch2WithMain.dir
+D:/Studies/5s/C++/Lab3/build/CMakeFiles/tests.dir
+D:/Studies/5s/C++/Lab3/build/CMakeFiles/ALL_BUILD.dir
+D:/Studies/5s/C++/Lab3/build/CMakeFiles/ZERO_CHECK.dir
+D:/Studies/5s/C++/Lab3/build/Catch2/CMakeFiles/ALL_BUILD.dir
+D:/Studies/5s/C++/Lab3/build/Catch2/src/CMakeFiles/Catch2.dir
+D:/Studies/5s/C++/Lab3/build/Catch2/src/CMakeFiles/Catch2WithMain.dir

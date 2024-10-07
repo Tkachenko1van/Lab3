@@ -1,4 +1,4 @@
-# Install script for directory: D:/Учеба/5 семестр/Уг. к. по C++/Lab3/Catch2/src
+# Install script for directory: D:/Studies/5s/C++/Lab3/Catch2/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

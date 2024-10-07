@@ -1,3 +1,6 @@
+#ifndef __MAIN_HPP__
+#define __MAIN_HPP__
+
 #include <iostream>
 #include <cmath>
 
@@ -12,3 +15,5 @@ double f_cos(double x);
 
 //Функция для вычисления решения уравнения с заданной точностью
 double Solution(Func func,double x, double eps);
+
+#endif

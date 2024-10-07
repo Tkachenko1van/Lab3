@@ -5,6 +5,6 @@ C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake
 C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake
 C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake
 C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake
-D:/Учеба/5 семестр/Уг. к. по C++/Lab3/Catch2/CMake/CatchMiscFunctions.cmake
-D:/Учеба/5 семестр/Уг. к. по C++/Lab3/Catch2/src/CMakeLists.txt
-D:/Учеба/5 семестр/Уг. к. по C++/Lab3/Catch2/src/catch2/catch_user_config.hpp.in
+D:/Studies/5s/C++/Lab3/Catch2/CMake/CatchMiscFunctions.cmake
+D:/Studies/5s/C++/Lab3/Catch2/src/CMakeLists.txt
+D:/Studies/5s/C++/Lab3/Catch2/src/catch2/catch_user_config.hpp.in

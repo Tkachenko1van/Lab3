@@ -1,4 +1,4 @@
-# Install script for directory: D:/Учеба/5 семестр/Уг. к. по C++/Lab3/Catch2
+# Install script for directory: D:/Studies/5s/C++/Lab3/Catch2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Учеба/5 семестр/Уг. к. по C++/Lab3/build/Catch2/src/cmake_install.cmake")
+  include("D:/Studies/5s/C++/Lab3/build/Catch2/src/cmake_install.cmake")
 
 endif()
 

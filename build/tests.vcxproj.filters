@@ -1,24 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Учеба\5 семестр\Уг. к. по C++\Lab3\tests.cpp">
+    <ClCompile Include="D:\Studies\5s\C++\Lab3\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Studies\5s\C++\Lab3\tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Учеба\5 семестр\Уг. к. по C++\Lab3\main.hpp">
+    <ClInclude Include="D:\Studies\5s\C++\Lab3\main.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Учеба\5 семестр\Уг. к. по C++\Lab3\CMakeLists.txt" />
+    <CustomBuild Include="D:\Studies\5s\C++\Lab3\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{DC76B19B-1297-3CF8-90C7-549F7978ECF6}</UniqueIdentifier>
+      <UniqueIdentifier>{2AE7ED28-080A-3330-B2C1-91EE19C99EBE}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{2D8ED169-40D9-3264-BCDC-5EF3657218AB}</UniqueIdentifier>
+      <UniqueIdentifier>{48FA5EE9-3FB5-39CB-8E21-C7B60DF4CF2F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
